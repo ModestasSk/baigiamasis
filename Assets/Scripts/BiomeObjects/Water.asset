@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0037e3a1781fb37458a0a38f5a2c70bc, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  name: Water
+  color: {r: 0.11280705, g: 0.22693853, b: 0.3679245, a: 0}
+  temperature: 0
+  moisture: 0
+  biomeRule:
+  - tempType: 3
+    moistureType: 5
